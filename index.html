@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="document">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,7 +26,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   </head>
   <body>
-    <div id="start"></div>
+    <div id="start" role="card"></div>
   </body>
 
   <script type="text/babel">
@@ -53,7 +53,7 @@
         return (
           <div className="column screen_height hr-center vr-center">
             <div className="card column hr-center">
-              <p className="advice">Advice #{this.state.id}</p>
+              <h1 className="advice">Advice #{this.state.id}</h1>
               <p className="quote">{this.state.advice}</p>
               <img
                 className="divider"
