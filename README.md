@@ -39,8 +39,8 @@ Normally I would use [Lightshot](https://app.prntscr.com/) or [Sharex](https://g
 
 ### Links
 
-- Solution URL: [Front-End Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Front-End Mentor](https://www.frontendmentor.io/solutions/responsive-react-advice-generator-HyIOQ93H9)
+- Live Site URL: [Github](https://acmegamers.github.io/Advice-Generator/)
 
 ## My process
 
