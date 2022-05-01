@@ -1,0 +1,109 @@
+:root {
+  /* Background */
+  --bg: hsl(218, 23%, 16%);
+  --card_bg: hsl(217, 19%, 24%);
+  --color-grayish-blue: hsl(217, 19%, 38%);
+
+  /* Text */
+  --color-light-cyan: hsl(193, 38%, 86%);
+  --color-neon-green: hsl(150, 100%, 66%);
+
+  /* widths */
+  --desktop-card-width: 450px;
+  --mobile-card-width: calc(100vw - 100px);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color-light-cyan);
+  margin: 0;
+}
+
+/* The Card */
+.card {
+  background: var(--card_bg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 0px #00000024;
+
+  padding: 30px;
+  width: var(--desktop-card-width);
+}
+
+/* The Advice */
+.advice {
+  color: var(--color-neon-green);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* The Quote */
+.quote {
+  color: var(--color-light-cyan);
+
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+
+  text-align: center;
+}
+
+button {
+  background: var(--color-neon-green);
+  border: none;
+  border-radius: 500px;
+  height: 60px;
+  width: 60px;
+
+  position: relative;
+  top: -30px;
+}
+
+.divider {
+  padding-bottom: 40px;
+  width: 425px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    width: var(--mobile-card-width);
+  }
+
+  .divider {
+    padding-bottom: 40px;
+    width: calc(var(--mobile-card-width) - 10px);
+  }
+}
+
+/* custom styling */
+
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-center {
+  align-items: center;
+}
+.vr-center {
+  justify-content: center;
+}
+
+.screen_height {
+  height: 100vh;
+}
