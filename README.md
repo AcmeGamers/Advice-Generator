@@ -61,6 +61,6 @@ Since functional components are quite easier in reading ability in comparison to
 
 ## Author
 
-- [Website](https://www.your-site.com)
-- Frontend Mentor - [@AcmeGamers](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- [Website](https://acme.fatima-academy.com)
+- Frontend Mentor - [@AcmeGamers](https://www.frontendmentor.io/profile/AcmeGamers)
+- Twitter - [@Acme_Gamers](https://twitter.com/Acme_Gamers)
