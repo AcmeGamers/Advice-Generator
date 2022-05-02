@@ -53,12 +53,8 @@
         return (
           <div className="column screen_height hr-center vr-center">
             <div className="card column hr-center">
-              <h1 className="advice" role="heading">
-                Advice #{this.state.id}
-              </h1>
-              <p className="quote" role="quote">
-                {this.state.advice}
-              </p>
+              <h1 className="advice">Advice #{this.state.id}</h1>
+              <p className="quote">{this.state.advice}</p>
               <img
                 className="divider"
                 src="./images/pattern-divider-desktop.svg"
@@ -69,7 +65,6 @@
             <button
               className="flex vr-center hr-center"
               onClick={this.fetchAdvice}
-              role="button"
               aria-pressed="false"
             >
               <img src="./images/icon-dice.svg" alt="Dice" />
