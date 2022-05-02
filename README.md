@@ -53,7 +53,7 @@ Normally I would use [Lightshot](https://app.prntscr.com/) or [Sharex](https://g
 
 ### What I learned
 
-I believe in practice being a main part of learning process, and repeatingly used previous concepts allows people to be more productive and faster. With this exercise, I was able to put a better refresher on how to use React Components while building this application.
+I believe in practice being a main part of learning process, and repeatingly used previous concepts allows people to be more productive and faster. With this exercise, I was able to put a better refresher on how to use React Components while building this application, in addition, how ARIA-roles can be put to better use for people with disabilities.
 
 ### Continued development
 
